@@ -1,0 +1,10 @@
+<ng-container *ngIf="(todoItem$ | async) as todoItem; else loading">
+  <a [routerLink]="['/']" class="btn btn-info">Back</a>
+    <h1>{{ todoItem.title }}</h1>
+    <div>{{ todoItem.content }}</div>
+    <ul>
+      <li>{{ todoItem.createdDate }}</li>
+    </ul>
+  
+  </ng-container>
+  <ng-template #loading>Loading…</ng-template>
