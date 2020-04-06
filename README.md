@@ -22,5 +22,3 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Notes
 App Url : http://localhost:4200
 
-
-
